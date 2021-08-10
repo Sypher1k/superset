@@ -149,7 +149,7 @@ setup(
         "trino": ["sqlalchemy-trino>=0.2"],
         "prophet": ["prophet>=1.0.1, <1.1", "pystan<3.0"],
         "redshift": ["sqlalchemy-redshift>=0.8.1, < 0.9"],
-        "snowflake": ["snowflake-sqlalchemy>=1.2.3, <1.3"],
+        "snowflake": ["snowflake-sqlalchemy>=1.2.3, <1.4"],
         "teradata": ["sqlalchemy-teradata==0.9.0.dev0"],
         "thumbnails": ["Pillow>=7.0.0, <8.0.0"],
         "vertica": ["sqlalchemy-vertica-python>=0.5.9, < 0.6"],
