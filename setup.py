@@ -105,8 +105,10 @@ setup(
         "selenium>=3.141.0",
         "simplejson>=3.15.0",
         "slackclient==2.5.0",  # PINNED! slack changes file upload api in the future versions
-        "sqlalchemy>=1.3.16, <1.4, !=1.3.21",
-        "sqlalchemy-utils>=0.36.6,<0.37",
+        "sqlalchemy==1.3.24",
+        "sqlalchemy-utils==0.36.8",
+        "snowflake-connector-python==2.5.1",
+        "snowflake-sqlalchemy==1.2.4",
         "sqlparse==0.3.0",  # PINNED! see https://github.com/andialbrecht/sqlparse/issues/562
         "tabulate==0.8.9",
         "typing-extensions>=3.7.4.3,<4",  # needed to support typing.Literal on py37
